@@ -1,0 +1,28 @@
+{
+  "name": "larpmanagernode",
+  "version": "0.1.0",
+  "description": "NodeJS Backend Larp Manager",
+  "main": "larpmanager.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naniania/LarpManagerNode.git"
+  },
+  "author": "Crafteurs De Rêves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naniania/LarpManagerNode/issues"
+  },
+  "homepage": "https://github.com/Naniania/LarpManagerNode#readme",
+  "dependencies": {
+    "hapi": "^16.6.3",
+    "hapi-auth-jwt2": "^7.4.1",
+    "moment": "^2.22.2"
+  }
+}
